@@ -1,7 +1,7 @@
 package inventario;
 
 class ComputadoraBarataBuilder implements Builder{
-    private Computadora computadora;
+    private Computadora computadora = new Computadora();
     
     @Override
     public void reset() {
